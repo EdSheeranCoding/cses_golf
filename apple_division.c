@@ -1,0 +1,1 @@
+n,i;main(){long long a[20],s=0,b=1LL<<62,m,x,d;scanf("%d",&n);for(;i<n;i++)scanf("%lld",a+i),s+=a[i];for(m=0;m<1LL<<n;m++){for(x=i=0;i<n;i++)if(m>>i&1)x+=a[i];d=llabs(s-2*x);if(d<b)b=d;}printf("%lld\n",b);}

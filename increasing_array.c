@@ -1,0 +1,1 @@
+long t,n,h;main(x){scanf("%u\n%u",&n,&h);while(~scanf("%u",&x))x<h?t+=h-x:(h=x);printf("%lu",t);}

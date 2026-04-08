@@ -1,0 +1,1 @@
+main(){long long n,r=1,b=2;scanf("%lld",&n);for(;n;n>>=1,b=b*b%1000000007)if(n&1)r=r*b%1000000007;printf("%lld",r);}

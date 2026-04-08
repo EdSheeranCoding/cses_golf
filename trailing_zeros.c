@@ -1,0 +1,1 @@
+c;main(n){scanf("%d",&n);while(n>=5)c+=n/=5;printf("%d",c);}

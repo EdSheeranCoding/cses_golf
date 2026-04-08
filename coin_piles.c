@@ -1,0 +1,1 @@
+main(a,b,t){for(scanf("%d",&t);t--;){scanf("%d%d",&a,&b);puts((a+b)%3||a>2*b||b>2*a?"NO":"YES");}}

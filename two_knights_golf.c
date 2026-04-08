@@ -1,0 +1,1 @@
+long i;main(n){scanf("%d",&n);for(;++i<=n;)printf("%ld\n",((i*i)*(i*i-1)>>1)-((n>2)?4*(i-1)*(i-2):0));}

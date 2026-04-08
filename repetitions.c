@@ -1,0 +1,1 @@
+m,k,p;main(c){while(~(c=getchar())){if(c==p){k++;if(k>m){m=k;}}else{p=c;k=1;}}printf("%d",m);}

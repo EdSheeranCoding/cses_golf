@@ -1,0 +1,1 @@
+char s[1000001];f[26],i,j,k,o=-1,l,r;main(){scanf("%s", s);r=strlen(s)-1;for(;s[i];i++)f[s[i]-65]++;for(;k<26;k++)if(f[k]%2){if(~o){puts("NO SOLUTION");return 0;}o=k;}for(k=0;k<26;k++)for(j=0;j<f[k]/2;j++)s[l++]=s[r--]=65+k;if(~o)s[l]=65+o;puts(s);}

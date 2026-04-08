@@ -1,0 +1,1 @@
+p(g,n){n&&(p(g>>1,n-1),putchar(48+g%2));}c;main(n,m){for(scanf("%d",&n);c<1<<n;c+=puts(""))p(c^c>>1,n);}
